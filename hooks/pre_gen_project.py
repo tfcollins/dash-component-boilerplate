@@ -29,7 +29,8 @@ def _check_specials_characters(s):
     if i == 95:
         # Allow for `_`
         return False
-    return not 96 < i < 123
+#     return not 96 < i < 123
+    return True
 
 
 def check_specials_characters(s):
